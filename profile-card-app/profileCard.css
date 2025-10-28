@@ -119,7 +119,6 @@ blockquote::before, blockquote::after, q::before, q::after {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
     margin: auto;
-    margin-top:50px;
     background-color: #242424;
     background-image: linear-gradient(135deg, #000000 0%, #383838 100%);
     color: #eeeeee;
@@ -157,6 +156,6 @@ blockquote::before, blockquote::after, q::before, q::after {
 }
 .profile-name {
     font-size: 1.8rem;
-    margin-bottom:20px;
+    margin:20px;
     text-align:center;
 }

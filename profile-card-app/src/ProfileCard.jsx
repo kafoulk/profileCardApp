@@ -3,12 +3,12 @@ import '../profileCard.css';
 const ProfileCard = () => {
     return (
         <div className="profile-card">
-            <h1 className='profile-name'>Kiersten Foulk</h1>
             <img
                 src="../kfLogo.png"
                 alt="Profile picture"
                 className="profile-image"
             />
+                        <h1 className='profile-name'>Kiersten Foulk</h1>
             <div className="social-links">
             {/* LinkedIn */}
             <a 
@@ -63,6 +63,7 @@ const ProfileCard = () => {
                     <li>Traveling</li>
                     <li>Animals & nature</li>
                     <li>Learning & trying new things</li>
+                    <li>Technology & Innovation</li>
                 </ul>
             </div>
         </div>
